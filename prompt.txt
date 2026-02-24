@@ -1,0 +1,201 @@
+# 🔥 Project Overview
+
+Create a cutting-edge React application for **[PROJECT_TYPE]** that feels futuristic, immersive, and premium (2025-level design). 
+
+The experience should make users say:
+> "[EMOTIONAL_REACTION]"  
+
+This is NOT a corporate template — it should feel bold, interactive, and modern.
+
+---
+
+# 🧱 Tech Stack
+
+- React (Functional Components Only)
+- Hooks: useState, useEffect, useRef, useCallback, useMemo
+- Tailwind CSS (No custom CSS files)
+- Framer Motion for animations
+- React Intersection Observer for scroll reveals
+- Custom hooks for:
+  - useMousePosition
+  - useParallax
+  - useScrollPosition
+  - useDebounce
+
+---
+
+# 🎨 Visual Theme
+
+Theme Style: **[THEME_STYLE]**
+Examples:
+- Glassmorphism
+- Cyberpunk
+- Minimal Dark
+- Neon Gradient
+- Brutalist
+- Soft AI
+
+Color Palette:
+- Primary: [PRIMARY_COLOR]
+- Secondary: [SECONDARY_COLOR]
+- Accent: [ACCENT_COLOR]
+- Background: [BACKGROUND_COLOR]
+
+---
+
+# ✨ Core Visual Effects
+
+- Dark or adaptive theme using Tailwind utilities
+- Glass effect: backdrop-blur-lg, bg-white/10, border-white/20
+- Gradient text using bg-gradient-to-r
+- Floating blurred background shapes (blur-3xl)
+- 3D tilt effects using transform & perspective
+- Smooth hover scale animations
+- Subtle animated gradients
+
+---
+
+# 🧩 Component Architecture
+
+## 1️⃣ App Component
+- Global scroll tracking
+- Cursor state management
+- Mobile detection
+- Intersection Observer setup
+
+---
+
+## 2️⃣ CustomCursor (Desktop Only)
+- Tracks mouse position
+- Scales on hover over interactive elements
+- Disabled on touch devices
+
+---
+
+## 3️⃣ Navigation
+- Glassmorphism navbar
+- Smooth scrolling navigation
+- Active section highlight
+- Responsive mobile menu
+
+---
+
+## 4️⃣ Hero Section
+
+Headline:
+> "[MAIN_HEADLINE]"
+
+Subtext:
+> "[SUBTEXT]"
+
+Primary CTA: [PRIMARY_CTA]
+Secondary CTA: [SECONDARY_CTA]
+
+Effects:
+- Gradient headline
+- Framer Motion entrance animation
+- Optional 3D interactive demo
+- Parallax background shapes
+
+---
+
+## 5️⃣ Features Section
+
+Create reusable FeatureCard component:
+
+Props:
+- icon: [ICON]
+- title: [FEATURE_TITLE]
+- description: [FEATURE_DESCRIPTION]
+- delay: [ANIMATION_DELAY]
+
+Number of features: [NUMBER_OF_FEATURES]
+
+---
+
+## 6️⃣ Interactive Stats
+
+Animated counters:
+
+- [STAT_1_TITLE] → [TARGET_NUMBER]
+- [STAT_2_TITLE] → [TARGET_NUMBER]
+- [STAT_3_TITLE] → [TARGET_NUMBER]
+
+Include:
+- Smooth increment animation
+- Gradient numbers
+- Scroll-triggered reveal
+
+---
+
+## 7️⃣ [OPTIONAL_SECTION_NAME]
+
+Examples:
+- Pricing
+- Portfolio Showcase
+- AI Demo
+- Testimonials
+- Dashboard Preview
+- Workflow Steps
+
+Content:
+[SECTION_DETAILS]
+
+---
+
+# 🪄 Animation Standards
+
+- Framer Motion entrance animations
+- Scroll-based reveal using Intersection Observer
+- Parallax hook for depth
+- Hover-based 3D tilt
+- Reduced motion support
+- Debounced scroll & resize events
+
+---
+
+# ⚡ Performance Optimization
+
+- React.memo for heavy components
+- useCallback for event handlers
+- Lazy loading for below-the-fold sections
+- Conditional rendering for mobile
+
+---
+
+# 📱 Mobile Responsiveness
+
+- Disable cursor effects
+- Stack layout using Tailwind responsive prefixes
+- Touch-friendly spacing
+- Reduced heavy blur on small screens
+
+---
+
+# 🧠 Tone & Branding
+
+Brand Personality:
+[BRAND_PERSONALITY]
+
+Examples:
+- Futuristic & Bold
+- Premium & Minimal
+- Playful & Creative
+- Enterprise & Powerful
+
+Headlines should feel:
+- Confident
+- Future-driven
+- Action-oriented
+
+---
+
+# 🎯 Expected Outcome
+
+Deliver:
+- Fully structured React components
+- Clean folder organization
+- Reusable UI system
+- Smooth animations
+- Premium 2025 feel
+- No custom CSS — Tailwind only
